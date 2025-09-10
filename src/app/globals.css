@@ -175,3 +175,9 @@
 		margin: 0;
 	}
 }
+
+@layer utilities {
+	.icon-in-input {
+		@apply absolute top-1/2 -translate-y-1/2;
+	}
+}
